@@ -34,11 +34,9 @@ app.get('/', (req, res) => {
     </head>
     <body>
       <div class="container">
-        <h1>🛍️ Shopify Orders Exporter</h1>
-        <p>Welcome to your Shopify backend service!</p>
-        <p>Click the button below to export your orders to Excel:</p>
-        <a href="/export-orders" class="btn">📊 Export Orders</a>
-        <p><small>Make sure you have set up your .env file with SHOP_NAME and SHOPIFY_API_TOKEN</small></p>
+        <h1>Shopify Orders Exporter</h1>
+        <p>Export your orders to Excel:</p>
+        <a href="/export-orders" class="btn">Export Orders</a>
       </div>
     </body>
     </html>
